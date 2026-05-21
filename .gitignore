@@ -1,0 +1,30 @@
+# Dependencias (la más importante)
+node_modules/
+
+# Variables de entorno (contienen secretos, API keys, contraseñas)
+.env
+.env.local
+.env.*.local
+
+# Archivos de registros (logs)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de salida de compilación (si usas TypeScript, Webpack, etc.)
+/dist/
+/build/
+/custom-outputs
+/coverage
+
+# Configuraciones de tu editor de código (mantiene la configuración local)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

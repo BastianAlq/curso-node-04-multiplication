@@ -21,7 +21,7 @@ Thumbs.db
 /build/
 /custom-outputs
 /coverage
-
+/outputs
 # Configuraciones de tu editor de código (mantiene la configuración local)
 .vscode/
 .idea/

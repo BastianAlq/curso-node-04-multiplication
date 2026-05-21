@@ -12,11 +12,11 @@ describe('SaveFileUseCase', () => {
   const customFilePath = `${customOptions.fileDestination}/${customOptions.fileName}.txt`;
 
   afterEach(() => {
-    const outputFolderExist = fs.existsSync('outputs');
-    if (outputFolderExist) fs.rmSync('outputs', { recursive: true });
+    // const outputFolderExist = fs.existsSync('outputs');
+    // if (outputFolderExist) fs.rmSync('outputs', { recursive: true });
 
-    const customOutputFolderExists = fs.existsSync(customOptions.fileDestination);
-    if (customOutputFolderExists) fs.rmSync(customOptions.fileDestination, { recursive: true });
+    // const customOutputFolderExists = fs.existsSync(customOptions.fileDestination);
+    // if (customOutputFolderExists) fs.rmSync(customOptions.fileDestination, { recursive: true });
 
 
   })
